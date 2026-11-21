@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Diagnóstico da sua comunicação | Raíssa Lobo</title>
+<meta name="description" content="45 minutos comigo, ao vivo, para eu te mostrar onde a sua marca está parecendo igual às outras e o que muda para o seu cliente chegar decidido.">
+<meta property="og:title" content="Diagnóstico da sua comunicação | Raíssa Lobo">
+<meta property="og:description" content="Seu funil não vende porque a sua comunicação é igual à de todo mundo. 45 minutos comigo para descobrir o que muda.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://araissalobo.com.br/raissa.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap">
+<style>
+:root{--grafite:#1d1a18;--creme:#efe7da;--vinho:#4a1b26;--cobre:#b3693f;--cobre-claro:#d29a73;--suave:rgba(239,231,218,.72);--tinta:#26211e;--tinta-suave:#5d544d;--linha:rgba(29,26,24,.14)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',system-ui,sans-serif;background:var(--creme);color:var(--tinta);line-height:1.6;font-size:17px;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+.wrap{width:100%;max-width:1040px;margin:0 auto;padding-left:max(22px,env(safe-area-inset-left,0px));padding-right:max(22px,env(safe-area-inset-right,0px))}
+.serif{font-family:'Cormorant Garamond',Georgia,serif}
+.eyebrow{font-size:12px;letter-spacing:.22em;text-transform:uppercase;font-weight:500}
+h1,h2{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;line-height:1.08;text-wrap:balance;letter-spacing:-.2px}
+h1{font-size:clamp(38px,7vw,68px)}
+h2{font-size:clamp(30px,4.6vw,46px)}
+em{font-style:italic;font-weight:500}
+.btn{display:inline-block;text-decoration:none;font-weight:600;font-size:16px;padding:17px 30px;border-radius:2px;transition:transform .15s,background .15s}
+.btn:hover{transform:translateY(-1px)}
+.btn:focus-visible{outline:3px solid var(--cobre-claro);outline-offset:3px}
+.btn-claro{background:var(--creme);color:var(--grafite)}
+.btn-claro:hover{background:#fff}
+.btn-vinho{background:var(--vinho);color:var(--creme)}
+.btn-vinho:hover{background:#5d2330}
+.preco{margin-top:14px;font-size:14px}
+
+/* topo */
+.hero{background:var(--grafite);color:var(--creme);background-image:linear-gradient(100deg,#1d1a18 0%,#1d1a18 55%,#33161e 85%,#4a1b26 100%);padding-block:clamp(54px,9vw,110px)}
+.hero .eyebrow{color:var(--cobre-claro);margin-bottom:26px;display:flex;align-items:center;gap:14px}
+.hero .eyebrow::before{content:"";width:44px;height:2px;background:var(--cobre)}
+.hero h1 em{color:var(--cobre-claro)}
+.hero p.sub{margin-top:26px;max-width:36em;font-size:clamp(17px,2.2vw,20px);color:var(--suave)}
+.hero .acao{margin-top:36px}
+.hero .preco{color:var(--suave)}
+
+section{padding-block:clamp(56px,8vw,96px)}
+.col{max-width:680px}
+.col p+p{margin-top:18px}
+.frase{font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(26px,3.6vw,36px);line-height:1.2;color:var(--vinho);margin-top:34px;padding-left:22px;border-left:3px solid var(--cobre);font-weight:600}
+.frase em{color:var(--cobre)}
+
+/* prova e caso */
+.prova{background:var(--vinho);color:var(--creme);padding-block:22px;font-size:clamp(15px,2.2vw,18px)}
+.prova .num{font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(24px,4vw,34px);font-weight:600;color:var(--cobre-claro)}
+.prova .seta{color:var(--cobre-claro);margin:0 6px}
+.caso{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,7fr);gap:clamp(24px,5vw,56px);margin-top:36px;border-top:2px solid var(--cobre);padding-top:28px;align-items:center}
+.caso-num{font-size:17px;color:var(--tinta-suave);line-height:1.5}
+.caso-num span{display:block;font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(40px,6vw,60px);font-weight:600;color:var(--vinho);line-height:1.05}
+.caso-nome{font-family:'Cormorant Garamond',Georgia,serif;font-size:28px;font-weight:600;color:var(--vinho)}
+.caso-papel{font-size:14px;color:var(--tinta-suave);margin:2px 0 14px}
+.caso-papel a{color:var(--cobre)}
+/* passos */
+.passos{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:40px;list-style:none}
+.passos li{border-top:2px solid var(--cobre);padding-top:18px}
+.passos strong{display:block;font-family:'Cormorant Garamond',Georgia,serif;font-size:26px;line-height:1.15;margin-bottom:8px;color:var(--vinho)}
+.passos span{color:var(--tinta-suave);font-size:16px}
+
+/* para quem */
+.faixa{background:#e6dccb}
+.dois{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,64px);align-items:start}
+
+/* quem sou */
+.sobre{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:clamp(28px,5vw,64px);align-items:center}
+.sobre img{border-radius:2px;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:50% 12%}
+.sobre p+p{margin-top:16px}
+
+/* faq */
+details{border-top:1px solid var(--linha);padding-block:20px}
+details:last-of-type{border-bottom:1px solid var(--linha)}
+summary{cursor:pointer;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:16px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--cobre);font-size:24px;line-height:1}
+details[open] summary::after{content:"2"}
+details p{margin-top:12px;color:var(--tinta-suave);max-width:40em}
+
+/* fecho */
+.fecho{background:var(--vinho);color:var(--creme);text-align:left}
+.fecho h2{max-width:14em}
+.fecho .acao{margin-top:34px}
+.fecho .preco{color:var(--suave)}
+footer{background:var(--grafite);color:var(--suave);padding-block:30px;font-size:14px}
+footer a{color:var(--cobre-claro)}
+
+@media (max-width:760px){
+ body{font-size:16.5px}
+ .passos,.dois,.sobre,.caso{grid-template-columns:1fr}
+ .btn{display:block;text-align:center}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+ <div class="wrap">
+  <div class="eyebrow">Diagnóstico da sua comunicação</div>
+  <h1>Seu funil não vende porque a sua comunicação é <em>igual à de todo mundo</em></h1>
+  <p class="sub">Você já tem conteúdo, funil e oferta. O que falta é o cliente chegar decidido. Em 45 minutos comigo, eu olho a sua marca do jeito que o seu cliente olha e te mostro onde ela está igual às outras e o que muda para você virar a escolha óbvia do seu mercado.</p>
+  <div class="acao">
+   <a class="btn btn-claro cta" href="https://pay.hub.la/hXejWnMXedvASrvQpmdo">Quero o meu diagnóstico</a>
+   <p class="preco">R$ 97, no Pix ou em até 12x no cartão</p>
+  </div>
+ </div>
+</header>
+
+<div class="prova">
+ <div class="wrap"><span class="num">R$ 5 mil</span> de tráfego num lançamento semente de uma aula só <span class="seta">&rarr;</span> <span class="num">R$ 37 mil</span> em vendas</div>
+</div>
+
+<section>
+ <div class="wrap">
+  <div class="col">
+   <h2>Se o cliente compara, a marca falhou antes do funil</h2>
+   <p style="margin-top:24px">Você já mexeu no anúncio, na página e no funil. A venda continua travando no mesmo ponto: o cliente chega, olha, compara com o outro mentor que fala a mesma coisa e pede desconto. Ou some depois de ver o preço.</p>
+   <p>Nem o melhor funil segura a venda quando o cliente não tem um motivo para escolher você. Tem mais de 8 anos que eu vivo nos bastidores do marketing digital, e a causa se repete: todo mundo comunicando igual.</p>
+   <p class="frase">Marca genérica compete por preço<br><em>Marca original é a escolha óbvia</em></p>
+  </div>
+ </div>
+</section>
+
+<section class="faixa">
+ <div class="wrap">
+  <h2>Como é a sessão</h2>
+  <ol class="passos">
+   <li><strong>Eu olho antes</strong><span>Ao agendar, você me conta o seu perfil, o que vende, por quanto e o que mais te incomoda na sua comunicação. Eu chego sabendo.</span></li>
+   <li><strong>A gente conversa</strong><span>45 minutos pelo Google Meet. Eu analiso o seu perfil, a sua mensagem e a sua oferta, do jeito que o seu cliente vê.</span></li>
+   <li><strong>Você sai sabendo</strong><span>Onde a sua marca está genérica e o que muda para ela virar a escolha óbvia do seu mercado.</span></li>
+  </ol>
+ </div>
+</section>
+
+<section>
+ <div class="wrap dois">
+  <div>
+   <h2>Para quem vive do que sabe</h2>
+  </div>
+  <div>
+   <p>É para o mentor que já vende, tem conteúdo e tem funil, e mesmo assim sente que o cliente compara, pede desconto ou não chega decidido.</p>
+   <p style="margin-top:18px">Se você quer descobrir se o problema está na sua marca antes de mexer de novo em anúncio e funil, essa conversa é para você.</p>
+  </div>
+ </div>
+</section>
+
+<section>
+ <div class="wrap">
+  <div class="eyebrow" style="color:var(--cobre);margin-bottom:14px">Resultados</div>
+  <h2>O que muda quando a comunicação é sua</h2>
+  <div class="caso">
+   <div class="caso-num"><span>R$ 5 mil</span> em tráfego<br><span>R$ 37 mil</span> em vendas</div>
+   <div>
+    <p class="caso-nome">Carine Sáenz</p>
+    <p class="caso-papel">Advogada de imigração na Espanha &middot; <a href="https://www.instagram.com/carinesaenz/" rel="noopener">@carinesaenz</a></p>
+    <p>Um lançamento semente, de uma aula só. Antes de investir em tráfego eu entendi a Carine por inteiro, desenhei o posicionamento e a esteira de produtos e montei o conteúdo. Com R$ 5 mil de tráfego, o lançamento vendeu R$ 37 mil.</p>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="faixa">
+ <div class="wrap sobre">
+  <img src="raissa.jpg" alt="Raíssa Lobo, sentada numa poltrona, com uma caneca preta na mão" width="1024" height="1280" loading="lazy">
+  <div>
+   <div class="eyebrow" style="color:var(--cobre);margin-bottom:14px">Quem conduz</div>
+   <h2>Eu sou a Raíssa</h2>
+   <p style="margin-top:22px">Eu comecei no atendimento: na Vivo, falando com cliente todo dia, e depois numa agência de publicidade, onde cheguei à liderança de atendimento. Foi ali que eu aprendi o que o cliente faz quando duas marcas dizem a mesma coisa: ele compara.</p>
+   <p>Em 2021 abri a minha agência de conteúdo para quem vive do que sabe, e tive clientes que ficaram 4 e 5 anos. A partir de 2024 passei a atuar como estrategista do negócio digital: marca pessoal, posicionamento, conteúdo, funil e lançamento. Fui mentorada da Camila Renaux em marketing estratégico.</p>
+   <p>Eu também já fiz o que o mercado faz. Deixei de falar o que eu acredito por medo de perder cliente, e acabava não conectando com ninguém. Cansei disso. Hoje eu começo entendendo a pessoa por inteiro e só depois desenho a marca, porque estratégia linda que você não consegue sustentar não serve.</p>
+   <p>Em 2025 virei sócia da Artha. No Efeito Cumulativo que construo com o Marcelo Emerick, eu cuido da aquisição e da expansão.</p>
+  </div>
+ </div>
+</section>
+
+<section>
+ <div class="wrap">
+  <div class="col">
+   <h2>Como funciona</h2>
+   <ol class="passos" style="margin-top:34px;grid-template-columns:1fr">
+    <li><strong>Você paga</strong><span>Pix ou cartão, em até 12x. Dá para dividir em mais de um cartão.</span></li>
+    <li><strong>Escolhe o horário</strong><span>Terça das 14h às 17h, quarta e quinta das 13h às 16h, no horário de Brasília. Você recebe o link da agenda logo depois do pagamento.</span></li>
+    <li><strong>A gente se vê no Meet</strong><span>Você responde às perguntas do formulário, eu olho o seu material e a conversa começa já no ponto.</span></li>
+   </ol>
+  </div>
+ </div>
+</section>
+
+<section class="faixa">
+ <div class="wrap">
+  <div class="col">
+   <h2>Perguntas</h2>
+   <div style="margin-top:28px">
+    <details><summary>É ao vivo?</summary><p>É. São 45 minutos pelo Google Meet, comigo.</p></details>
+    <details><summary>Posso parcelar?</summary><p>Pode, em até 12x no cartão. O Pix também está disponível, e dá para dividir em mais de um cartão.</p></details>
+    <details><summary>Quando acontece?</summary><p>Terça das 14h às 17h, quarta e quinta das 13h às 16h. São no máximo duas sessões por dia.</p></details>
+    <details><summary>O que eu preciso levar?</summary><p>Nada. Você responde quatro perguntas ao agendar: o seu perfil, o que vende e por quanto, e o que mais te incomoda na sua comunicação hoje.</p></details>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="fecho">
+ <div class="wrap">
+  <h2>Descubra se a sua marca é genérica ou original</h2>
+  <div class="acao">
+   <a class="btn btn-claro cta" href="https://pay.hub.la/hXejWnMXedvASrvQpmdo">Quero o meu diagnóstico</a>
+   <p class="preco">R$ 97, no Pix ou em até 12x no cartão</p>
+  </div>
+ </div>
+</section>
+
+<footer>
+ <div class="wrap">Raíssa Lobo · Sócia da Artha · <a href="https://www.instagram.com/araissalobo/" rel="noopener">@araissalobo</a> · <a href="https://www.linkedin.com/in/araissalobo/" rel="noopener">LinkedIn</a></div>
+</footer>
+
+<script>
+/* Rastreio (skill rastreio-checkout). Fonte unica do link: window.CHECKOUT_URL.
+   Todo botao le daqui; nada remonta a URL a partir da constante crua. */
+(function(){
+var BASE='https://pay.hub.la/hXejWnMXedvASrvQpmdo';
+var MAXLEN=120,KEY='raissa_primeiro_toque',TTL=2592e6;
+function norm(v){return String(v||'').trim().replace(/\s+/g,'-').replace(/^\|+|\|+$/g,'')}
+var q;try{q=new URLSearchParams(location.search)}catch(e){q=new URLSearchParams('')}
+var sck=norm(q.get('sck'));
+if(!sck)sck=['utm_source','utm_medium','utm_campaign','utm_content','utm_term'].map(function(k){return norm(q.get(k))}).filter(Boolean).join('|');
+sck=sck.slice(0,MAXLEN).replace(/\|+$/,'');
+var repasse=['utm_source','utm_medium','utm_campaign','utm_content','utm_term','gclid','fbclid','ttclid'];
+var guardado=null;
+try{
+ if(sck){localStorage.setItem(KEY,JSON.stringify({v:sck,t:Date.now()}))}
+ else{var s=JSON.parse(localStorage.getItem(KEY)||'null');if(s&&s.v&&Date.now()-s.t<TTL)sck=s.v}
+}catch(e){}
+function montar(){
+ var u;try{u=new URL(BASE)}catch(e){return BASE}
+ if(sck)u.searchParams.set('sck',sck);
+ repasse.forEach(function(k){var v=q.get(k);if(v)u.searchParams.set(k,v)});
+ return u.toString();
+}
+window.CHECKOUT_URL=montar();
+[].forEach.call(document.querySelectorAll('a.cta'),function(a){a.href=window.CHECKOUT_URL});
+})();
+</script>
+</body>
+</html>
